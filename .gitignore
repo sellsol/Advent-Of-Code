@@ -1,2 +1,5 @@
 # Inputs
 *.txt
+
+# Uncleaned outputs
+code
