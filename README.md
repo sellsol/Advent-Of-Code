@@ -9,5 +9,5 @@ Given that I might be unfamiliar with language syntax, these solutions are not o
 | Year      | Python | C++   |
 | --------- | ------ | ----- |
 | 2024      | 2      | 2     |
-| 2023      | 0      | 4     |
-| **Total** | **2**  | **6** |
+| 2023      | 0      | 6     |
+| **Total** | **2**  | **8** |

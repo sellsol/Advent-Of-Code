@@ -20,7 +20,7 @@ def part_1():
     for a, b in zip(list_1, list_2):
         sum += abs(a - b)
 
-    print(f"Part 1 answer: {sum}")
+    return sum
 
 def part_2():
     sum = 0
@@ -29,7 +29,7 @@ def part_2():
     for num in list_1:
         sum += num * counter_2.get(num, 0)
 
-    print(f"Part 2 answer: {sum}")
+    return sum
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
@@ -38,5 +38,5 @@ if __name__ == "__main__":
     input_path = sys.argv[1]
 
     parse_file(input_path)
-    part_1()
-    part_2()
+    print(f"Part 1 answer: {part_1()}")
+    print(f"Part 2 answer: {part_2()}")

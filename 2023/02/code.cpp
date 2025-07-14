@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void part1(string inputFile) {
+int part1(string inputFile) {
     int game = 0;
     bool gameValid = true;
     int sum = 0;
@@ -37,10 +37,10 @@ void part1(string inputFile) {
     if (gameValid) sum += game;
     f.close();
 
-    cout << "Part 1 answer: " << sum << "\n";
+    return sum;
 }
 
-void part2(string inputFile) {
+int part2(string inputFile) {
     int blue = 0; int red = 0; int green = 0;
     int sum = 0;
 
@@ -68,7 +68,7 @@ void part2(string inputFile) {
     sum += blue * red * green;
     f.close();
 
-    cout << "Part 2 answer: " << sum << "\n";
+    return sum;
 }
 
 int main(int argc, char** argv) {
@@ -78,7 +78,7 @@ int main(int argc, char** argv) {
 
     string inputFile = argv[1];
 
-    part1(inputFile);
-    part2(inputFile);
+    cout << "Part 1 answer: " << part1(inputFile) << "\n";
+    cout << "Part 2 answer: " << part2(inputFile) << "\n";
     return 0;
 }
