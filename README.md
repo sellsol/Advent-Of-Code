@@ -1,4 +1,4 @@
-# Advent-Of-Code
+# Personal Advent of Code Solutions
 
 [Advent of Code](https://adventofcode.com/) is an advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.
 
@@ -6,6 +6,7 @@ These puzzles are great for practicing and learning programming languages, so ma
 
 | Year      | Python | C++     |
 | --------- | ------ | ------- |
+| 2025      | 0 / 50 | 0 / 50  |
 | 2024      | 2 / 50 | 2 / 50  |
-| 2023      | 0 / 50 | 10 / 50 |
-| **Total** | **2**  | **12**  |
+| 2023      | 0 / 50 | 12 / 50 |
+| **Total** | **2**  | **14**  |
