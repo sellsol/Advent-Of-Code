@@ -43,7 +43,6 @@ int part2(std::string inputFile) {
         numZeros += std::abs(current / 100);
 
         current = (current % 100 + 100) % 100; // positive modulo
-        // std::cout << current << "\n";
     }
 
     return numZeros;

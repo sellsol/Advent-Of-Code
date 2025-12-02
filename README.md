@@ -6,7 +6,7 @@ These puzzles are great for practicing and learning programming languages, so ma
 
 | Year      | Python | C++     |
 | --------- | ------ | ------- |
-| 2025      | 0 / 24 | 2 / 24  |
+| 2025      | 0 / 24 | 4 / 24  |
 | 2024      | 2 / 50 | 2 / 50  |
 | 2023      | 0 / 50 | 12 / 50 |
-| **Total** | **2**  | **16**  |
+| **Total** | **2**  | **18**  |
